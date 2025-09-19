@@ -1,0 +1,21 @@
+Files included in this ZIP:
+- pubspec.yaml
+- README.md
+- lib/
+  - main.dart
+  - config.dart
+  - services/firebase_service.dart
+  - services/agora_service.dart
+  - screens/login.dart
+  - screens/otp_verify.dart
+  - screens/home.dart
+  - screens/rooms.dart
+- android/
+  - build.gradle
+  - app/build.gradle
+  - app/src/main/AndroidManifest.xml
+- ios/Runner/Info.plist
+- assets/icon/ (placeholder)
+Notes:
+- Replace placeholders (AGORA_APP_ID) and add Firebase config files.
+- I could not run a `flutter build` here; please upload ZIP to Codemagic and run the build. If errors appear, share the build log and I will help fix them.
